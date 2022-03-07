@@ -1,0 +1,6 @@
+sticky
+.bashrc
+.config/i3/config
+.config/i3blocks/config
+.config/picom.conf
+.vimrc
