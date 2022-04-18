@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Are you sure you want to flatten this directory? It will overwrite duplicate files!"
+read
+find ./ -mindepth 2 -type f -exec mv '{}' ./ ';'
