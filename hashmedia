@@ -8,3 +8,4 @@ find -iname \*.jpeg -exec md5sum '{}' ';' | while read sum file ; do mv "$file" 
 find -iname \*.webm -exec md5sum '{}' ';' | while read sum file ; do mv "$file" "`dirname $file`/$sum".webm ; done
 find -iname \*.gif -exec md5sum '{}' ';' | while read sum file ; do mv "$file" "`dirname $file`/$sum".gif ; done
 find -iname \*.mp4 -exec md5sum '{}' ';' | while read sum file ; do mv "$file" "`dirname $file`/$sum".mp4 ; done
+find -iname \*.webp -exec md5sum '{}' ';' | while read sum file ; do mv "$file" "`dirname $file`/$sum".webp ; done
