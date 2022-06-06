@@ -1,2 +1,3 @@
 #!/bin/bash
-~/eclipse/java-2021-12/eclipse/eclipse > /dev/null & disown
+export GDK_BACKEND=x11 && \
+~/eclipse/java-2022-03/eclipse/eclipse > /dev/null & disown
