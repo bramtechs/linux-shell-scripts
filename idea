@@ -1,2 +1,0 @@
-#!/bin/bash
-/opt/idea-IC-221.5080.210/bin/idea.sh & disown 

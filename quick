@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ~/scripts/.quickies | dmenu | xargs -I ? xfce4-terminal -x vim ~/?
+cat ~/scripts/.quickies | dmenu | xargs -I ? sensible-editor ~/?
