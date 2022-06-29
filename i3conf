@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 vim ~/.config/i3/config

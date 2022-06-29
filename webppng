@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Converts all webp images in working folder to png
 # Requires imagemagick
 

@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 cat ~/scripts/.quickies | dmenu | xargs -I ? sensible-editor ~/?

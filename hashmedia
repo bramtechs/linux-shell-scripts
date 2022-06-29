@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "Are you sure?"
 read a
 find -iname \*.webm -exec md5sum '{}' ';' | while read sum file ; do mv "$file" "`dirname $file`/$sum".webm ; done
