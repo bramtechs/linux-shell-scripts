@@ -1,3 +1,5 @@
 TODO
-.bashrc
-.config/nvim/init.vim
+/home/bram/.config/i3/config
+/etc/nixos/configuration.nix
+/etc/nixos/packages.nix
+/home/bram/.config/nvim/init.vim

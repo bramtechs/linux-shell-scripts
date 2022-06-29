@@ -1,2 +1,2 @@
 #!/bin/sh
-cat ~/scripts/.quickies | dmenu | xargs -I ? sensible-editor ~/?
+cat /home/bram/scripts/.quickies | dmenu | xargs -I ? nvim ?
