@@ -1,2 +1,6 @@
 #!/bin/sh
-vim ~/.config/i3/config
+old=$(pwd)
+cd ~/.config/i3/ 
+vim config
+make apply
+cd $old
