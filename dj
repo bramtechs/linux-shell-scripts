@@ -13,10 +13,10 @@ else
     # if yt is appended, download song from youtube
     if [ "$2" = "yt" ]; then
         echo "Downloading from youtube..."
-        yt-dlp $1 -x --audio-format mp3 --embed-thumbnail --add-metadata
+        yt-dlp "$1" -x --audio-format mp3 --embed-thumbnail --add-metadata
     else
         echo "Downloading from spotdl..."
-        spotdl $1
+        spotdl "$1"
     fi
     cd $old
 fi
